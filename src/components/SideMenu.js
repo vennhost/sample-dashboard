@@ -1,6 +1,6 @@
 import React from "react";
 import * as Icon from "react-icons/bs";
-import {BiLogOut} from "react-icons/bi"
+import { BiLogOut } from "react-icons/bi";
 
 const SideMenu = () => {
   return (
@@ -50,14 +50,14 @@ const SideMenu = () => {
         </div>
       </div>
       <div className="mt-auto text-white">
-        <div className="border rounded-md border-white bg-transparent px-5 py-2">
-            <span>Switch Account</span>
+        <div className="border rounded-md border-white bg-transparent px-5 py-2 cursor-pointer">
+          <span>Switch Account</span>
         </div>
-        <div className="flex flex-row justify-start items-center border rounded-md border-white bg-transparent px-5 py-2 my-5">
-            <span className="mr-5">
+        <div className="flex flex-row justify-start items-center border rounded-md border-white bg-transparent px-5 py-2 my-5 cursor-pointer">
+          <span className="mr-5">
             <BiLogOut />
-            </span>
-            <span>Logout</span>
+          </span>
+          <span>Logout</span>
         </div>
       </div>
     </div>
